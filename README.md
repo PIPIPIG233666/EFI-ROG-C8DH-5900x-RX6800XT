@@ -11,7 +11,7 @@ Powerful and near-silent even under full CPU load.
 ![](media/SS.png)
 #![](media/sliger-s620.jpeg)
 ![](media/radeon.jpeg)
-![](media/cb23.png)
+![](media/Screen Shot 2022-05-30 at 7.26.28 PM.png)
 ![](media/unigine-heaven.png)
 
 - [ROG STRIX B550-I GAMING](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-i-gaming-model/) motherboard.
