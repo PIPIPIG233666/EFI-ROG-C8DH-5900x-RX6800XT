@@ -9,9 +9,9 @@
 Powerful and near-silent even under full CPU load.
 
 ![](media/SS.png)
-![](media/AIO.png)
-![](media/Right.png)
-![](media/Left.png)
+![](media/AIO.jpg)
+![](media/Right.jpg)
+![](media/Left.jpg)
 ![](media/cbr23.png)
 
 - [ROG STRIX B550-I GAMING](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-i-gaming-model/) motherboard.
