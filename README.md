@@ -73,3 +73,6 @@ Use at your own risk.
 - I do boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
 
 Good luck.
+
+## Enabling Secure Boot
+Check https://www.reddit.com/r/hackintosh/comments/v91q50/secure_booting_with_oc/
