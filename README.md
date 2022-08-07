@@ -1,6 +1,6 @@
 # ASUS ROG Strix B550I + Ryzen 9 5900X + RX 6650 XT
 
-- OpenCore ver 0.8.0
+- OpenCore ver 0.8.3
 - MacPro7,1
 - Monterey 12.4
 
@@ -18,10 +18,10 @@ Powerful and near-silent even under full CPU load.
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU.
 - Phanteks [Glacier One 240MPH](https://phanteks.com/Glacier-One-MP.html) AIO with Noctua NF-A12x25 x2 under the radiator.
 - AMD [RX 6650 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6650-xt) graphics card, PCIe 4.0 riser from case.
-- G.Skill [Ripjaws V](https://www.gskill.com/product/165/184/1562833535/F4-3600C18D-32GVK) 32 GB (2 x 16 GB) DDR4 3600MHz CL18 Samsung A-die.
-- SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB NVMe SSD (Windows).
-- WD_BLACK [SN 750](https://www.westerndigital.com/products/internal-drives/wd-black-sn750-nvme-ssd#WDS250G3X0C) 512 GB NVMe SSD.
-- Corsair [SF600 Platinum](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020182-NA) SFX PSU.
+- Crucial [Ballistix RGB](https://www.crucial.com/memory/ddr4/bl2k32g32c16u4bl) 64 GB (2 x 32 GB) DDR4 3800MHz CL16 Micron B-die.
+- SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB NVMe SSD (Windows + Hackintosh).
+- Intel [DC P3600](https://ark.intel.com/content/www/us/en/ark/products/80993/intel-ssd-dc-p3600-series-1-6tb-2-5in-pcie-3-0-20nm-mlc.html) 1.6TB MLC NVMe SSD (Games + Holo)
+- Corsair [SF750 Platinum](https://www.corsair.com/us/en/Categories/Products/Power-Supply-Units/Power-Supply-Units-Advanced/SF-Series/p/CP-9020186-NA) SFX PSU.
 - Lian Li [A4-H2O](https://lian-li.com/product/a4h2o/) SFF case.
 
 ### WiFI / Bt
@@ -30,15 +30,15 @@ The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and Int
 
 ### BIOS
 
-Version 2423
+Version 2803
 
-- Fast Boot: `Disabled`
+- Fast Boot: `Enabled`
 - CSM: `Disabled`
 - Above 4G Decoding: `Enabled`
 - Resizable Bar Support: `Enabled`
 - PCIe slot speed: `Auto`
-- XMP Profile activated
-- PBO2 PPT: 170 TDC: 45 EDC: 140.
+- Manual Profile activated
+- PBO2 PPT: 170 TDC: 140 EDC: 140.
 
 ## Usage
 
@@ -70,10 +70,10 @@ Use at your own risk.
 
 - All `.efi` drivers and `.kext` are `-RELEASE` builds from the respective packages. 
 - OpenCanopy (GUI boot menu) is up and running.
-- I do boot Windows 10 using OC, thus I can guarantee it will work. I have Win 11 installed on separate SSD.
+- I do boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
 
 Good luck.
 
-## Give back
+# Give back
 
-If you found this code useful, please consider [buying me a coffee](https://www.buymeacoffee.com/radianttap) or two. ☕️😋
+#If you found this code useful, please consider [buying me a coffee](https://www.buymeacoffee.com/radianttap) or two. ☕️😋
