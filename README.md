@@ -2,13 +2,13 @@
 
 - OpenCore ver 0.8.3
 - MacPro7,1
-- Monterey 12.4
+- Monterey 12.5
 
 ## Current hardware
 
 Powerful and near-silent even under full CPU load.
 
-![](media/SS.png)
+![](media/sysinfo.png)
 ![](media/AIO.jpg)
 ![](media/Right.jpg)
 ![](media/Left.jpg)
@@ -73,7 +73,3 @@ Use at your own risk.
 - I do boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
 
 Good luck.
-
-# Give back
-
-#If you found this code useful, please consider [buying me a coffee](https://www.buymeacoffee.com/radianttap) or two. ☕️😋
