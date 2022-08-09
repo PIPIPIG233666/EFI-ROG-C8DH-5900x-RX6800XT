@@ -8,29 +8,13 @@
 		<data>
 		7cRHhS0myV5YiKhRfHjMi538UWDekpfblx/K4qy2/40=
 		</data>
-		<key>ACPI\SSDT-EC-USBX.aml</key>
+		<key>ACPI\SSDT-EC-USBX-DESKTOP.aml</key>
 		<data>
-		iOb9B/AfrM4cPN8FHNTGCCPqGRUErtqAvywT5mz5whI=
+		HPlBpnZ/yV0qpcJl6C/AyU8FiFpnum+aNP5kOy8S3S4=
 		</data>
 		<key>ACPI\SSDT-GPU-SPOOF.aml</key>
 		<data>
 		keYDzKf5wBGXFMzt31oxv8TTgK8hjzIMzBM0vLyQ35A=
-		</data>
-		<key>ACPI\SSDT-HPET.aml</key>
-		<data>
-		m6NMhc5Oq+iCDnIUcZ/zKTq3GkXAtKavStF2j9yGUgE=
-		</data>
-		<key>ACPI\SSDT-PLUG.aml</key>
-		<data>
-		11quaH5THOYRQijv6OlngPJY2BNIhVvlVwrquFYdtT0=
-		</data>
-		<key>ACPI\SSDT-SBUS-MCHC.aml</key>
-		<data>
-		wFc/qOLMtI0fbMCM/SuI4DCCFW+Nd1qafle9Nfl8p2k=
-		</data>
-		<key>ACPI\SSDT-USB-Reset.aml</key>
-		<data>
-		APJp0ozpSUNOYdL998d6NTF0lQqOCJuYAd/jLRTOoDs=
 		</data>
 		<key>Drivers\HfsPlus.efi</key>
 		<data>
@@ -2322,7 +2306,7 @@
 		</data>
 		<key>config.plist</key>
 		<data>
-		CLyor3u7302Lre56SbahrdhmnaHFQOh6nslP/8KZPK0=
+		QXGAB8jBOB70m/n5ck8jLFE42WpivFTmDEZ4ojD2j5M=
 		</data>
 		<key>media\AIO.jpg</key>
 		<data>
@@ -2370,7 +2354,7 @@
 		</data>
 		<key>oldConfig.plist</key>
 		<data>
-		CLyor3u7302Lre56SbahrdhmnaHFQOh6nslP/8KZPK0=
+		yNmgv3thMc3vZYAMFudoCrE21PRcM/aMSe371WMOAQU=
 		</data>
 	</dict>
 	<key>Version</key>

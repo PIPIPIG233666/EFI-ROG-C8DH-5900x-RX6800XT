@@ -8,15 +8,15 @@
             <array>
                 <dict>
                     <key>Comment</key>
-                    <string>HPET _CRS (Needs _CRS to XCRS Rename)</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-HPET.aml</string>
+                    <string>SSDT-EC-USBX-DESKTOP.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>B550 CPU declaration wrapping</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
@@ -24,39 +24,7 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>CPU Power Management</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-PLUG.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SMBus fixer</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-SBUS-MCHC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>Reset USB</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-USB-Reset.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>USB power and fake EC</string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-EC-USBX.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string>SSDT-GPU-SPOOF.aml</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
