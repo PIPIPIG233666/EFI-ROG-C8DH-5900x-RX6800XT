@@ -9,15 +9,15 @@
 Powerful and near-silent even under full CPU load.
 
 ![image](https://user-images.githubusercontent.com/43439674/189533866-5cfb49dc-df65-465e-a662-9d8c56c3ad7c.png)
-![](media/AIO.jpg)
-![](media/Right.jpg)
-![](media/Left.jpg)
+![image](https://cdn.discordapp.com/attachments/909223062472388708/1018533781038190632/IMG20220911104842.jpg)
+![image](https://cdn.discordapp.com/attachments/909223062472388708/1018533781482774710/IMG20220911104846.jpg)
+![image](https://cdn.discordapp.com/attachments/909223062472388708/1018533781856075826/IMG20220911104854.jpg)
 ![](media/cbr23.png)
 
 - [ROG STRIX B550-I GAMING](https://rog.asus.com/us/motherboards/rog-strix/rog-strix-b550-i-gaming-model/) motherboard.
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU.
 - Phanteks [Glacier One 240MPH](https://phanteks.com/Glacier-One-MP.html) AIO with Noctua NF-A12x25 x2 under the radiator.
-- AMD [RX 6650 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6650-xt) graphics card, PCIe 4.0 riser from case.
+- ASUS ROG Strix AMD Radeon [RX 6650 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6650-xt) graphics card, PCIe 4.0 riser from case.
 - Crucial [Ballistix RGB](https://www.crucial.com/memory/ddr4/bl2k32g32c16u4bl) 64 GB (2 x 32 GB) DDR4 3800MHz CL16 Micron B-die.
 - SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB NVMe SSD (Windows + Hackintosh).
 - Intel [DC P3600](https://ark.intel.com/content/www/us/en/ark/products/80993/intel-ssd-dc-p3600-series-1-6tb-2-5in-pcie-3-0-20nm-mlc.html) 1.6TB MLC NVMe SSD (Games + Holo)
@@ -64,6 +64,7 @@ Everything.
 ### What’s not working
 
 Sidecar most likely. Did not even try it but I suspect it does not work.
+OpenRGB also doesn't work.
 
 ## Notes
 
