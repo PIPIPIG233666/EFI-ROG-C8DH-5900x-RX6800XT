@@ -1170,7 +1170,7 @@
                     <key>Flavour</key>
                     <string>OpenShell:UEFIShell:Shell</string>
                     <key>FullNvramAccess</key>
-                    <false/>
+                    <true/>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
@@ -1192,7 +1192,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
-                    <false/>
+                    <true/>
                     <key>Name</key>
                     <string>Shutdown</string>
                     <key>Path</key>
@@ -1214,7 +1214,7 @@
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>FullNvramAccess</key>
-                    <false/>
+                    <true/>
                     <key>Name</key>
                     <string>CleanNvram.efi</string>
                     <key>Path</key>

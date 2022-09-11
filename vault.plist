@@ -16,6 +16,10 @@
 		<data>
 		keYDzKf5wBGXFMzt31oxv8TTgK8hjzIMzBM0vLyQ35A=
 		</data>
+		<key>ACPI\SSDT-SBUS-MCHC.aml</key>
+		<data>
+		EEKnkeDe2JYMnQXchNarqxcXyCfcZWPMf9b5nG4SJ6A=
+		</data>
 		<key>ACPI\SSDT-UIAC.aml</key>
 		<data>
 		7HOSQwG3QN1ofdb8OWhDmklZSllIs4P/whfXjrujLko=
@@ -2318,11 +2322,11 @@
 		</data>
 		<key>config.plist</key>
 		<data>
-		gTt8DUhYxzj9wNDNdCzA3av5OrvAACYsal7YzgbDMEY=
+		Jt3T67kM3Q6FsyIeulu0NWCjSSSyFRs7t0OzUYHPcH0=
 		</data>
 		<key>oldConfig.plist</key>
 		<data>
-		Kc1D0ysoDFehOhUc+ITDzfNfucSVyXfny8ttRoWxuBc=
+		gTt8DUhYxzj9wNDNdCzA3av5OrvAACYsal7YzgbDMEY=
 		</data>
 	</dict>
 	<key>Version</key>
