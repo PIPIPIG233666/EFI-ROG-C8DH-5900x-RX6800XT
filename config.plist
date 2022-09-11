@@ -170,8 +170,6 @@
                 <dict>
                     <key>device-id</key>
                     <data>/3MAAA==</data>
-                    <key>model</key>
-                    <string>ROG Strix Radeon RX6650 XT</string>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -241,7 +239,7 @@
                     <key>BundlePath</key>
                     <string>AMDRyzenCPUPowerManagement.kext</string>
                     <key>Comment</key>
-                    <string>V0.7 | AMD Ryzen CPU Power Management</string>
+                    <string>V0.7.1 | AMD Ryzen CPU Power Management</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -295,7 +293,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.7.5 | Audio patches</string>
+                    <string>V1.7.6 | Audio patches</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -367,7 +365,7 @@
                     <key>BundlePath</key>
                     <string>AirportItlwm.kext</string>
                     <key>Comment</key>
-                    <string>V2.0.0 | AX200</string>
+                    <string>V2.2.0 | AX200</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -383,27 +381,9 @@
                     <key>Arch</key>
                     <string>Any</string>
                     <key>BundlePath</key>
-                    <string>IntelBluetoothInjector.kext</string>
-                    <key>Comment</key>
-                    <string>V2.2.0</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>ExecutablePath</key>
-                    <string></string>
-                    <key>MaxKernel</key>
-                    <string></string>
-                    <key>MinKernel</key>
-                    <string></string>
-                    <key>PlistPath</key>
-                    <string>Contents/Info.plist</string>
-                </dict>
-                <dict>
-                    <key>Arch</key>
-                    <string>Any</string>
-                    <key>BundlePath</key>
                     <string>IntelBluetoothFirmware.kext</string>
                     <key>Comment</key>
-                    <string>V2.2.0</string>
+                    <string>V2.3.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -421,7 +401,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.1</string>
+                    <string>V2.6.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1104,7 +1084,7 @@
                 <key>SecureBootModel</key>
                 <string>j160</string>
                 <key>Vault</key>
-                <string>Secure</string>
+                <string>Optional</string>
             </dict>
             <key>Serial</key>
             <dict>
@@ -1146,13 +1126,15 @@
                     <key>Arguments</key>
                     <string></string>
                     <key>Auxiliary</key>
-                    <false/>
+                    <true/>
                     <key>Comment</key>
                     <string>Not signed for security reasons</string>
                     <key>Enabled</key>
                     <true/>
                     <key>Flavour</key>
                     <string>OpenShell:UEFIShell:Shell</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
                     <key>Name</key>
                     <string>UEFI Shell</string>
                     <key>Path</key>
@@ -1173,6 +1155,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
                     <key>Name</key>
                     <string>Shutdown</string>
                     <key>Path</key>
@@ -1193,6 +1177,8 @@
                     <true/>
                     <key>Flavour</key>
                     <string>Auto</string>
+                    <key>FullNvramAccess</key>
+                    <true/>
                     <key>Name</key>
                     <string>CleanNvram.efi</string>
                     <key>Path</key>

@@ -1,8 +1,8 @@
 # ASUS ROG Strix B550I + Ryzen 9 5900X + RX 6650 XT
 
-- OpenCore ver 0.8.3
+- OpenCore ver 0.8.4
 - MacPro7,1
-- Monterey 12.5
+- Ventura 13.0
 
 ## Current hardware
 
