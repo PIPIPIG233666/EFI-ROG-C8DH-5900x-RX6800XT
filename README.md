@@ -8,7 +8,7 @@
 
 Powerful and near-silent even under full CPU load.
 
-![](media/sysinfo.png)
+![image](https://user-images.githubusercontent.com/43439674/189533866-5cfb49dc-df65-465e-a662-9d8c56c3ad7c.png)
 ![](media/AIO.jpg)
 ![](media/Right.jpg)
 ![](media/Left.jpg)
@@ -26,7 +26,7 @@ Powerful and near-silent even under full CPU load.
 
 ### WiFI / Bt
 
-The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext.
+The built-in components support WiFi 6 / Bluetooth 5 with the AirportItlwm.kext and IntelBluetoothFirmware.kext.
 
 ### BIOS
 
@@ -37,7 +37,7 @@ Version 2803
 - Above 4G Decoding: `Enabled`
 - Resizable Bar Support: `Enabled`
 - PCIe slot speed: `Auto`
-- Manual Profile activated
+- Manual XMP Profile activated
 - PBO2 PPT: 170 TDC: 140 EDC: 140.
 
 ## Usage
@@ -50,15 +50,16 @@ Version 2803
 Everything.
 
 - CPU Power Management.
-- NVMe and 2.5in SATA SSD.
+- m.2 NVMe and 2.5in NVMe SSD.
 - WiFi, Bluetooth, Ethernet.
-- All USB ports (without map, just with RHUB reset).
+- All USB ports.
 - Radeon GPU is natively supported(after spoofing).
 - 4K HDMI or DisplayPort with HDR.
 - Watch unlock, Handoff, iMessage, iCloud, Keychain, Xcode etc.
 - System Integrity Protection (SIP) fully enabled.
 - Sleep / Wake.
 - All media & DRM
+- Secure Boot + Apple Secure Boot/Vault
 
 ### What’s not working
 
@@ -70,7 +71,7 @@ Use at your own risk.
 
 - All `.efi` drivers and `.kext` are `-RELEASE` builds from the respective packages. 
 - OpenCanopy (GUI boot menu) is up and running.
-- I do boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
+- I boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
 
 Good luck.
 
