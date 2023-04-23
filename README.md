@@ -1,8 +1,8 @@
 # ASUS ROG Crosshair VIII Dark Hero + Ryzen 9 5900X + RX 6800 XT
 
-- OpenCore ver 0.8.9
+- OpenCore ver 0.9.2
 - MacPro7,1
-- Ventura 13.1
+- Ventura 13.2
 
 ## Current hardware
 
