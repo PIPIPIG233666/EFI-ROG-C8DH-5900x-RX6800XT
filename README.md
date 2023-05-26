@@ -1,29 +1,30 @@
 # ASUS ROG Crosshair VIII Dark Hero + Ryzen 9 5900X + RX 6800 XT
 
-- OpenCore ver 0.9.2
+- OpenCore ver 0.9.3
 - MacPro7,1
-- Ventura 13.2
+- Ventura 13.4
 
 ## Current hardware
 
-Powerful and near-silent even under full CPU load.
+Powerful and silent even under full CPU load (Thanks to external radiator).
 
 - [ROG Crosshair VIII Dark Hero](https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/) motherboard.
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU.
-- AMD [RX 6800 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6800-xt) graphics card, PCIe 4.0 riser from case.
+- AMD [RX 6800 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6800-xt) GPU.
 - Crucial [Ballistix RGB](https://www.crucial.com/memory/ddr4/bl2k32g32c16u4bl) 64 GB (2 x 32 GB) DDR4 3800MHz CL16 Micron B-die.
 - SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB NVMe SSD (Windows + Hackintosh).
-- Intel [DC P3600](https://ark.intel.com/content/www/us/en/ark/products/80993/intel-ssd-dc-p3600-series-1-6tb-2-5in-pcie-3-0-20nm-mlc.html) 1.6TB MLC NVMe SSD (Games + Holo)
+- Western Digital [Ultrastar DC SN640](https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-sn640-nvme-ssd) 7.68TB TLC NVMe SSD (Games + Linux)
 - Corsair [HX1000i Platinum](shorturl.at/oAL03) SFX PSU.
-- Lian Li [Lancool 216](https://lian-li.com/product/lancool-216/) M-ATX case.
+- ASUS [TUF GT502](https://www.asus.com/us/motherboards-components/gaming-cases/tuf-gaming/tuf-gaming-gt502/) M-ATX case.
 
 ### WiFI / Bt
 
-The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext.
+The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura landed, BT stopped working. Therefore, I switched to the Fenvi T919 for PnP Wi-Fi + BT experience.
+Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped.
 
 ### BIOS
 
-Version 2803
+Version 4501
 
 - Fast Boot: `Enabled`
 - CSM: `Disabled`
@@ -145,10 +146,10 @@ Check with _USBToolBox_ or _Hackintool_ (shows connection speed)
 
 Test external drive speed with _AJA System Test Lite_
 
-* [ ] USB 2 ports
+* [x] USB 2 ports
 * [x] USB 2 on USB 3 ports
-* [ ] USB 3 and 3.1 ports (check transfer speed during copy)
-* [ ] USB Type-C ports
+* [x] USB 3 and 3.1 ports (check transfer speed during copy)
+* [x] USB Type-C ports
 * [ ] SD Card Reader
 * [ ] Camera (Photo Booth, Facetime, Zoom)
 * [ ] Fingerprint reader
@@ -167,9 +168,9 @@ Test external drive speed with _AJA System Test Lite_
 #### Wifi & Bluetooth
 
 * [x] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
-* [ ] Bluetooth devices (trackpad, mouse, keyboard, headset)
-* [ ] AirDrop (test with iDevices)
-* [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
+* [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
+* [x] AirDrop (test with iDevices)
+* [x] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
   * tap the AirPlay icon on your Apple device to share videos to your Hackintosh
 * [ ] Handoff [System requirements for Continuity](https://support.apple.com/en-us/HT204689) and [Use Continuity](https://support.apple.com/en-us/HT204681) which requires macOS Catalina & iOS 13+
 * [ ] [Sidecar](https://support.apple.com/en-us/HT210380) requires macOS Catalina or later and a compatible iPad using iPadOS 13 or later.
@@ -187,7 +188,7 @@ Use at your own risk.
 
 - All `.efi` drivers and `.kext` are `-RELEASE` builds from the respective packages. 
 - OpenCanopy (GUI boot menu) is up and running.
-- I do boot Windows 11 using rEFInd, thus I can guarantee it will work. I have Win 11 installed on the same SSD.
+- I boot Windows 11 and Gentoo Linux using Opencore, thus I can guarantee it will work. I have Win 11 installed on the same SSD but Gentoo installed on an Optane P1600X that is disabled for this.
 
 Good luck.
 
