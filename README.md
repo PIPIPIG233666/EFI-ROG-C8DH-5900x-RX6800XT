@@ -38,7 +38,7 @@ Version 4501
 2. Use your Ethernet’s MAC address for `ROM` value, as explained in the Dortania guide. Don’t leave it as all 0s.
 
 <details>
-  <summary># Hackintosh Checklist
+  <summary><h2> Hackintosh Checklist </h2>
 </summary>
 
 ## What's working?
