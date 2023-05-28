@@ -29,6 +29,41 @@ The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and Int
 Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped properly, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.
 See [this Chinese website](https://imacos.top/2022/08/22/windows-usb-macos-bigsur-11-3-usbtoolbox/) for a more detailed guide on how to map USB ports.
 
+<details>
+  <summary> Sample USB Ports Mapping for the C8DH:
+</summary>
+
+
+| USB Location | USB Port ID manual |	USB Port ID UTB	| Type              | Actual Speed |
+| :----------: | :----------------: | :-------------: | ----------------- | :----------: |
+|Back|8A|2|USB 3.2 Gen 2 - A|2|
+|Back|8B|1|USB 3.2 Gen 2 - A|2|
+|Back|2C|20|USB 3.2 Gen 1 - A|2|
+|Back|2D|20|USB 3.2 Gen 1 - A|2|
+|Back|9A|4|USB 3.2 Gen 2 - A|2|
+|Back|9B|3|USB 3.2 Gen 2 - A|2|
+|Back|3C|20|USB 3.2 Gen 1 - A|2|
+|Back|3D|20|USB 3.2 Gen 1 - A|2|
+|Back|10A|10|USB 3.2 Gen 2 - A|2|
+|Back|10B|9|USB 3.2 Gen 2 - A|2|
+|Back|12|12|USB 3.2 Gen 2 - C|2|
+|Back|11B|11|USB 3.2 Gen 2 - A|2|
+|Back|8A|6|USB 3.2 Gen 2 - A|3|
+|Back|8B|5|USB 3.2 Gen 2 - A|3|
+|Back|2C|26|USB 3.2 Gen 1 - A|3|
+|Back|2D|26|USB 3.2 Gen 1 - A|3|
+|Back|9A|8|USB 3.2 Gen 2 - A|3|
+|Back|9B|7|USB 3.2 Gen 2 - A|3|
+|Back|3C|26|USB 3.2 Gen 1 - A|3|
+|Back|3D|26|USB 3.2 Gen 1 - A|3|
+|Back|10A|18|USB 3.2 Gen 2 - A|3|
+|Back|10B|17|USB 3.2 Gen 2 - A|3|
+|Back|12|16|USB 3.2 Gen 2 - C|3|
+|Back|11B|15|USB 3.2 Gen 2 - A|3|
+
+  <h6>Note: ID from manual is intended to be from left to right, A to D, line by line.</h6>
+</details>
+
 ### BIOS
 
 Version 4501
