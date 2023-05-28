@@ -111,7 +111,7 @@ Version 4501
 
 * [x] Display via HDMI
 * [x] Display via DisplayPort
-* [ ] Display via DVI
+* [ ] ~Display via DVI~ No DVI port
 * [x] Native Resolution
 * [x] Refresh rates
 * [x] Multimonitor displays
@@ -120,9 +120,9 @@ Version 4501
 
 * [x] dGPU dedicated GPU
   * In _Terminal_: `gfxutil -f GFX0` or check in _IORegistryExplorer_
-* [ ] iGPU internal GPU
+* [ ] ~iGPU internal GPU~ No iGPU
   * In _Terminal_: `gfxutil -f IGPU` or check in _IORegistryExplorer_
-* [ ] QE/CI _(full acceleration requires both Quartz Extreme and Core Image)_
+* [x] QE/CI _(full acceleration requires both Quartz Extreme and Core Image)_
   * Check for transparent menu bar and fast smooth UI.
 * [ ] VDA _(Video Decode Acceleration framework)_
   * _Hackintool -> System -> System -> VDA Decoder_ (should show '_fully supported_')
@@ -137,7 +137,7 @@ Version 4501
 
 #### Audio
 
-* [ ] Audio out (see in _Audio MIDI Setup_)
+* [x] Audio out (see in _Audio MIDI Setup_)
 * [ ] Audio in
 * [ ] Frontpanel audio connectors
 * [ ] Audio over HDMI
@@ -197,11 +197,11 @@ Test external drive speed with _AJA System Test Lite_
 * [x] USB 2 on USB 3 ports
 * [x] USB 3 and 3.1 ports (check transfer speed during copy)
 * [x] USB Type-C ports
-* [ ] SD Card Reader
+* [ ] ~SD Card Reader~
 * [ ] Camera (Photo Booth, Facetime, Zoom)
-* [ ] Fingerprint reader
+* [ ] ~Fingerprint reader~
 
-#### ThunderBolt
+#### ~ThunderBolt~
 
 * [ ] File transfer
 * [ ] Display
