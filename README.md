@@ -6,21 +6,21 @@
 
 ## Current hardware
 
-Powerful and silent even under full CPU load (Thanks to external radiator).
+Powerful and silent even under full CPU + GPU load (Thanks to external radiator).
 
 - [ROG Crosshair VIII Dark Hero](https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/) motherboard.
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU.
 - AMD [RX 6800 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6800-xt) GPU.
 - Crucial [Ballistix RGB](https://www.crucial.com/memory/ddr4/bl2k32g32c16u4bl) 64 GB (2 x 32 GB) DDR4 3800MHz CL16 Micron B-die.
-- SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB NVMe SSD (Windows + Hackintosh).
+- SK Hynix [Platinum P41](https://ssd.skhynix.com/platinum_p41/) 1TB TLC NVMe SSD (Windows + Hackintosh).
 - Western Digital [Ultrastar DC SN640](https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-sn640-nvme-ssd) 7.68TB TLC NVMe SSD (Games + Linux)
-- Corsair [HX1000i Platinum](shorturl.at/oAL03) SFX PSU.
+- Corsair [HX1000i Platinum](shorturl.at/oAL03) 1000W ATX PSU.
 - ASUS [TUF GT502](https://www.asus.com/us/motherboards-components/gaming-cases/tuf-gaming/tuf-gaming-gt502/) M-ATX case.
 
 ### WiFI / Bt
 
-The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura landed, BT stopped working. Therefore, I switched to the Fenvi T919 for PnP Wi-Fi + BT experience.
-Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped.
+The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919 for PnP Wi-Fi + BT experience.
+Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped, and BluetoothFixupTool is required even for a PnP card like the Fenvi T919.
 
 ### BIOS
 
@@ -179,8 +179,6 @@ Test external drive speed with _AJA System Test Lite_
 
 * [x] iMessage, FaceTime, App Store, iTunes Store
 * [ ] DRM support _(iTunes Movies, Apple TV+. Amazon Prime and Netflix, and others - test in Safari. Requires AMD Polaris or newer GPU.)
-
-[![CC0](Untitled/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/) __ I make this checklist available under public domain [(CC0)](https://creativecommons.org/share-your-work/public-domain/cc0/)
 
 ## Notes
 
