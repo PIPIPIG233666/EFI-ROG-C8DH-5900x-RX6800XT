@@ -25,59 +25,47 @@
 		<key>15:0:2</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPropertyMatch</key>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOParentMatch</key>
 			<dict>
-				<key>pcidebug</key>
-				<string>15:0:2</string>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>pcidebug</key>
+					<string>15:0:2</string>
+				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleUSBHostController</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
 				<data>
-				AgAAAA==
+				AAAAAA==
 				</data>
 				<key>ports</key>
-				<dict>
-					<key>HS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AQAAAA==
-						</data>
-					</dict>
-					<key>SS01</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>3</integer>
-						<key>port</key>
-						<data>
-						AgAAAA==
-						</data>
-					</dict>
-				</dict>
+				<dict/>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
-		<key>SHCI</key>
+		<key>XHC1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IONameMatch</key>
-			<string>SHCI</string>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOParentMatch</key>
+			<dict>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>pcidebug</key>
+					<string>10:0:1</string>
+				</dict>
+			</dict>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleUSBHostController</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
@@ -88,6 +76,8 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -97,6 +87,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -106,6 +98,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -131,17 +125,10 @@
 						BQAAAA==
 						</data>
 					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>255</integer>
-						<key>port</key>
-						<data>
-						BgAAAA==
-						</data>
-					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -160,6 +147,8 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -169,6 +158,8 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -178,22 +169,25 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
 		<key>_SB.PCI0.GP13.XHC0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPropertyMatch</key>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOParentMatch</key>
 			<dict>
-				<key>pcidebug</key>
-				<string>17:0:3</string>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>pcidebug</key>
+					<string>17:0:3</string>
+				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleUSBHostController</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
@@ -204,6 +198,8 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -213,6 +209,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -222,6 +220,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -231,6 +231,8 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -240,6 +242,8 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -249,6 +253,8 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -258,6 +264,8 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -267,6 +275,8 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -276,22 +286,25 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
 		<key>_SB.PCI0.GPP1.BYUP.BYD8.XHC0</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.dhinakg.USBToolBox.kext</string>
+			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
 			<key>IOClass</key>
-			<string>USBToolBox</string>
-			<key>IOMatchCategory</key>
-			<string>USBToolBox</string>
-			<key>IOPropertyMatch</key>
+			<string>AppleUSBHostMergeProperties</string>
+			<key>IOParentMatch</key>
 			<dict>
-				<key>pcidebug</key>
-				<string>10:0:3</string>
+				<key>IOPropertyMatch</key>
+				<dict>
+					<key>pcidebug</key>
+					<string>10:0:3</string>
+				</dict>
 			</dict>
 			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
+			<string>AppleUSBHostController</string>
 			<key>IOProviderMergeProperties</key>
 			<dict>
 				<key>port-count</key>
@@ -311,6 +324,8 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
+						<key>#comment</key>
+						<string>Back I/O USB 3.1 Gen 1 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -320,6 +335,8 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Front I/O USB 3.1 Gen 1 Bottom @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -329,6 +346,8 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>Front I/O USB 3.1 Gen 1 Top @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -343,15 +362,6 @@
 						<key>port</key>
 						<data>
 						BQAAAA==
-						</data>
-					</dict>
-					<key>HS06</key>
-					<dict>
-						<key>UsbConnector</key>
-						<integer>0</integer>
-						<key>port</key>
-						<data>
-						BgAAAA==
 						</data>
 					</dict>
 					<key>SS01</key>
@@ -374,6 +384,8 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
+						<key>#comment</key>
+						<string>Front I/O USB 3.1 Gen 1 Bottom @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -383,6 +395,8 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
+						<key>#comment</key>
+						<string>Front I/O USB 3.1 Gen 1 Top @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -392,12 +406,9 @@
 					</dict>
 				</dict>
 			</dict>
+			<key>model</key>
+			<string>MacPro7,1</string>
 		</dict>
-	</dict>
-	<key>OSBundleLibraries</key>
-	<dict>
-		<key>com.dhinakg.USBToolBox.kext</key>
-		<string>1.0.0</string>
 	</dict>
 	<key>OSBundleRequired</key>
 	<string>Root</string>
