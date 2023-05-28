@@ -8,6 +8,10 @@
 
 Powerful and silent even under full CPU + GPU load (Thanks to external radiator).
 
+<details>
+  <summary>Full hardware list:
+</summary>
+
 - [ROG Crosshair VIII Dark Hero](https://rog.asus.com/us/motherboards/rog-crosshair/rog-crosshair-viii-dark-hero-model/) motherboard.
 - AMD [Ryzen 9 5900X](https://www.amd.com/en/products/cpu/amd-ryzen-9-5900x) CPU.
 - AMD [RX 6800 XT](https://www.amd.com/en/products/graphics/amd-radeon-rx-6800-xt) GPU.
@@ -16,11 +20,14 @@ Powerful and silent even under full CPU + GPU load (Thanks to external radiator)
 - Western Digital [Ultrastar DC SN640](https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-sn640-nvme-ssd) 7.68TB TLC NVMe SSD (Games + Linux)
 - Corsair [HX1000i Platinum](shorturl.at/oAL03) 1000W ATX PSU.
 - ASUS [TUF GT502](https://www.asus.com/us/motherboards-components/gaming-cases/tuf-gaming/tuf-gaming-gt502/) M-ATX case.
+- Fenvi [T919](https://www.fenvi.com/product_detail_16.html) PnP Wi-Fi + BT PCIe AIC.
+</details>
 
 ### WiFI / Bt
 
-The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919 for PnP Wi-Fi + BT experience.
-Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.
+The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919.
+Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped properly, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.
+See [this Chinese website](https://imacos.top/2022/08/22/windows-usb-macos-bigsur-11-3-usbtoolbox/) for a more detailed guide on how to map USB ports.
 
 ### BIOS
 
@@ -38,7 +45,7 @@ Version 4501
 2. Use your Ethernet’s MAC address for `ROM` value, as explained in the Dortania guide. Don’t leave it as all 0s.
 
 <details>
-  <summary><h2> Hackintosh Checklist </h2>
+  <summary><h2> Hackintosh Checklist: </h2>
 </summary>
 
 ## What's working?
@@ -194,4 +201,4 @@ Use at your own risk.
 Good luck.
 
 ## Enabling Secure Boot
-Check https://www.reddit.com/r/hackintosh/comments/v91q50/secure_booting_with_oc/
+Check [r/hackintosh](https://www.reddit.com/r/hackintosh/comments/v91q50/secure_booting_with_oc).
