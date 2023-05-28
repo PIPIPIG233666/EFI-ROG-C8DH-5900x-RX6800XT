@@ -20,7 +20,7 @@ Powerful and silent even under full CPU + GPU load (Thanks to external radiator)
 ### WiFI / Bt
 
 The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919 for PnP Wi-Fi + BT experience.
-Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped, and BluetoothFixupTool is required even for a PnP card like the Fenvi T919.
+Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.
 
 ### BIOS
 
@@ -37,7 +37,9 @@ Version 4501
 1. [Update `PlatformInfo/Generic` stuff](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#generate-a-new-serial) with your own, inside `config.plist`
 2. Use your Ethernet’s MAC address for `ROM` value, as explained in the Dortania guide. Don’t leave it as all 0s.
 
-# Hackintosh Checklist
+<details>
+  <summary># Hackintosh Checklist
+</summary>
 
 ## What's working?
 
@@ -179,6 +181,7 @@ Test external drive speed with _AJA System Test Lite_
 
 * [x] iMessage, FaceTime, App Store, iTunes Store
 * [ ] DRM support _(iTunes Movies, Apple TV+. Amazon Prime and Netflix, and others - test in Safari. Requires AMD Polaris or newer GPU.)
+</details>
 
 ## Notes
 
