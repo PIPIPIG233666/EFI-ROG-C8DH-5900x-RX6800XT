@@ -22,6 +22,14 @@
                     <key>Path</key>
                     <string>SSDT-EC-USBX-DESKTOP.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string>Disable Optane</string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-NO-OPTN.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
             <array/>
