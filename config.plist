@@ -1376,9 +1376,43 @@
         <key>NVRAM</key>
         <dict>
             <key>Add</key>
-            <dict/>
+            <dict>
+                <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+                <dict/>
+                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+                <dict>
+                    <key>rtc-blacklist</key>
+                    <data></data>
+                </dict>
+                <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+                <dict>
+                    <key>ForceDisplayRotationInEFI</key>
+                    <integer>0</integer>
+                    <key>SystemAudioVolume</key>
+                    <data>Rg==</data>
+                    <key>boot-args</key>
+                    <string>agdpmod=pikera e1000=0 alcid=13</string>
+                    <key>csr-active-config</key>
+                    <data>AAAAAA==</data>
+                    <key>run-efi-updater</key>
+                    <string>No</string>
+                </dict>
+            </dict>
             <key>Delete</key>
-            <dict/>
+            <dict>
+                <key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
+                <array>
+                    <string>DefaultBackgroundColor</string>
+                </array>
+                <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
+                <array>
+                    <string>rtc-blacklist</string>
+                </array>
+                <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
+                <array>
+                    <string>boot-args</string>
+                </array>
+            </dict>
             <key>LegacyOverwrite</key>
             <false/>
             <key>LegacySchema</key>
