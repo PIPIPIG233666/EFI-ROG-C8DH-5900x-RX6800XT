@@ -22,34 +22,6 @@
 	<string>1.1</string>
 	<key>IOKitPersonalities</key>
 	<dict>
-		<key>15:0:2</key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>com.apple.driver.AppleUSBHostMergeProperties</string>
-			<key>IOClass</key>
-			<string>AppleUSBHostMergeProperties</string>
-			<key>IOParentMatch</key>
-			<dict>
-				<key>IOPropertyMatch</key>
-				<dict>
-					<key>pcidebug</key>
-					<string>15:0:2</string>
-				</dict>
-			</dict>
-			<key>IOProviderClass</key>
-			<string>AppleUSBHostController</string>
-			<key>IOProviderMergeProperties</key>
-			<dict>
-				<key>port-count</key>
-				<data>
-				AAAAAA==
-				</data>
-				<key>ports</key>
-				<dict/>
-			</dict>
-			<key>model</key>
-			<string>MacPro7,1</string>
-		</dict>
 		<key>XHC1</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
@@ -61,7 +33,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>10:0:1</string>
+					<string>9:0:1</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -76,8 +48,6 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -87,8 +57,6 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -98,8 +66,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -125,10 +91,17 @@
 						BQAAAA==
 						</data>
 					</dict>
+					<key>HS06</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
+						BgAAAA==
+						</data>
+					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -147,8 +120,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -158,8 +129,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -183,7 +152,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>17:0:3</string>
+					<string>16:0:3</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -198,8 +167,6 @@
 				<dict>
 					<key>HS01</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -209,8 +176,6 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -220,8 +185,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -231,8 +194,6 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -242,8 +203,6 @@
 					</dict>
 					<key>SS01</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -253,8 +212,6 @@
 					</dict>
 					<key>SS02</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -264,8 +221,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -275,8 +230,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 2 @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -300,7 +253,7 @@
 				<key>IOPropertyMatch</key>
 				<dict>
 					<key>pcidebug</key>
-					<string>10:0:3</string>
+					<string>9:0:3</string>
 				</dict>
 			</dict>
 			<key>IOProviderClass</key>
@@ -324,8 +277,6 @@
 					</dict>
 					<key>HS02</key>
 					<dict>
-						<key>#comment</key>
-						<string>Back I/O USB 3.1 Gen 1 @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>255</integer>
 						<key>port</key>
@@ -335,8 +286,6 @@
 					</dict>
 					<key>HS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Front I/O USB 3.1 Gen 1 Bottom @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -346,8 +295,6 @@
 					</dict>
 					<key>HS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>Front I/O USB 3.1 Gen 1 Top @ USB 2.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -384,8 +331,6 @@
 					</dict>
 					<key>SS03</key>
 					<dict>
-						<key>#comment</key>
-						<string>Front I/O USB 3.1 Gen 1 Bottom @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
@@ -395,8 +340,6 @@
 					</dict>
 					<key>SS04</key>
 					<dict>
-						<key>#comment</key>
-						<string>Front I/O USB 3.1 Gen 1 Top @ USB 3.0</string>
 						<key>UsbConnector</key>
 						<integer>3</integer>
 						<key>port</key>
