@@ -25,8 +25,14 @@ Powerful and silent even under full CPU + GPU load (Thanks to external radiator)
 
 ### WiFI / Bt
 
-The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919.
-Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped properly, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.
+~The built-in components support WiFi 6 / Bluetooth 5 with the itlwm.kext and IntelBluetoothFirmware.kext, however, after Ventura, BT stopped working. Therefore, I switched to the Fenvi T919.~
+~Note that on Ryzentosh, in order for the BCM_20702B0 chipset to work, USB ports have to be mapped properly, and `BlueToolFixup` is required even for a PnP card like the Fenvi T919.~
+
+https://github.com/acidanthera/BrcmPatchRAM/pull/28 made Bluetooth alive again on Ventura. *<strong>Long live, Intel!</strong>*
+As Apple has revealed in the Sonoma Dev Beta, Broadcomm is killed, and this makes it not worth it to get the Fenvi one for $59.99 as a PnP alternative.
+Despite AirDrop being not working, there is really no complaint for getting Bluetooth to work as I am typing this on my Keychron K14 via Bluetooth connection.
+
+### USB Ports Mapping
 See [this Chinese website](https://imacos.top/2022/08/22/windows-usb-macos-bigsur-11-3-usbtoolbox/) for a more detailed guide on how to map USB ports.
 <details>
   <summary> Sample USB Ports Mapping for the C8DH:
@@ -69,10 +75,10 @@ See [this Chinese website](https://imacos.top/2022/08/22/windows-usb-macos-bigsu
 
 Version 4501
 
-- Fast Boot: `Enabled`
+- Fast Boot: `Disabled` [^4]
 - CSM: `Disabled`
 - Above 4G Decoding: `Enabled`
-- Resizable Bar Support: `Enabled`
+- Resizable Bar Support: `Auto` - This means `Enabled` on the ASUS board
 - PCIe slot speed: `Auto`
 
 ## Usage
@@ -82,7 +88,8 @@ Version 4501
 
 <details>
 
-[^4]: This awesome checklist is from [Opencore-Visual-Beginners-Guide](https://github.com/chriswayg/Opencore-Visual-Beginners-Guide/blob/master/step-by-step/hackintosh-checklist/README.md)
+[^4]: Fast Boot has to be disabled, otherwise Wi-Fi & BT will be gone intermittently.
+[^5]: This awesome checklist is from [Opencore-Visual-Beginners-Guide](https://github.com/chriswayg/Opencore-Visual-Beginners-Guide/blob/master/step-by-step/hackintosh-checklist/README.md)
   
   <summary>
     <h2>
@@ -90,7 +97,7 @@ Version 4501
     </h2>
 </summary>
 
-  <span markdown="1"> <h3>Hackintosh Checklist:</h3>[^4]</span>
+  <span markdown="1"> <h3>Hackintosh Checklist:</h3>[^5]</span>
 
 ### Desktop and General
 
@@ -216,8 +223,8 @@ Test external drive speed with _AJA System Test Lite_
 
 * [x] Wifi transmission speed (Option Click -> Wifi menu bar icon -> check Tx Rate)
 * [x] Bluetooth devices (trackpad, mouse, keyboard, headset)
-* [x] AirDrop (test with iDevices)
-* [x] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
+* [ ] AirDrop (test with iDevices)
+* [ ] AirPlay to Mac (macOS Monterey or later, test with iOS 14 or later devices)
   * tap the AirPlay icon on your Apple device to share videos to your Hackintosh
 * [ ] Handoff [System requirements for Continuity](https://support.apple.com/en-us/HT204689) and [Use Continuity](https://support.apple.com/en-us/HT204681) which requires macOS Catalina & iOS 13+
 * [ ] [Sidecar](https://support.apple.com/en-us/HT210380) requires macOS Catalina or later and a compatible iPad using iPadOS 13 or later.
