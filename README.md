@@ -1,4 +1,5 @@
 # ASUS ROG Crosshair VIII Dark Hero + Ryzen 9 5900X + RX 6800 XT
+### check the specific branch for the EFI files, currently 5700G branch is WIP.
 
 - OpenCore ver 0.9.3
 - MacPro7,1
@@ -20,7 +21,6 @@ Powerful and silent even under full CPU + GPU load (Thanks to external radiator)
 - Western Digital [Ultrastar DC SN640](https://www.westerndigital.com/products/internal-drives/data-center-drives/ultrastar-dc-sn640-nvme-ssd) 7.68TB TLC NVMe SSD (Games + Linux)
 - Corsair [HX1000i Platinum](shorturl.at/oAL03) 1000W ATX PSU.
 - ASUS [TUF GT502](https://www.asus.com/us/motherboards-components/gaming-cases/tuf-gaming/tuf-gaming-gt502/) M-ATX case.
-- Fenvi [T919](https://www.fenvi.com/product_detail_16.html) PnP Wi-Fi + BT PCIe AIC.
 </details>
 
 ### WiFI / Bt
