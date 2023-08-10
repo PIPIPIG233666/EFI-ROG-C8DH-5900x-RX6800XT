@@ -341,7 +341,7 @@
                     <key>Comment</key>
                     <string>V2.4.0 | IntelBluetoothFirmware.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBluetoothFirmware</string>
                     <key>MaxKernel</key>
@@ -521,7 +521,7 @@
                     <key>Comment</key>
                     <string>V2.6.7 | BlueToolFixup.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/BlueToolFixup</string>
                     <key>MaxKernel</key>
@@ -539,7 +539,7 @@
                     <key>Comment</key>
                     <string>V2.4.0 | IntelBTPatcher.kext</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IntelBTPatcher</string>
                     <key>MaxKernel</key>
